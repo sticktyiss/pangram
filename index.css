@@ -1,0 +1,18 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 300px;
+    /* justify-content: space-around; */
+    border: 2px solid black;
+    border-radius: 10px;
+}
+li {
+    list-style-type: none;
+    margin: 20px;
+    text-indent: -30px;
+    font-size: 30px;
+}
+.apparent {
+    text-decoration: line-through;
+}
