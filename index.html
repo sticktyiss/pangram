@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pangram Check</title>
-
+    <title>Pangram Checker</title>
     <link rel="stylesheet" href="./index.css">
+    <meta name="description" content="Check if a sentence has every letter! Just copy and paste.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Pangram Check</h1>
+    <h1>Pangram Checker</h1>
+    <dl>
+        <dt>What is a <span>pangram</span>?</dt>
+        <dd>A sentence or verse that contains all the letters of the alphabet.</dd>
+    </dl>
     <p>Does your sentence contain every letter?</p>
 
     <form>
         <label for="pangram">Your sentence</label>
-        <input type="text" id="pangram" name="pangram">
+        <input type="textbox" id="pangram" name="pangram">
         <input type="submit" id="submit">
     </form>
 
