@@ -1,6 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #264653;
+}
+#info {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 h1 {
     color: #f4a261;
     background-color: #2a9d8f;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Indie Flower', cursive;
+    width: fit-content;
+}
+#checker {
+    display: flex;    
 }
 #pangram {
     width: 300px;
