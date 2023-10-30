@@ -1,6 +1,10 @@
+h1 {
+    color: #f4a261;
+    background-color: #2a9d8f;
+}
 #pangram {
-    max-width: 300px;
-    max-height: fit-content;
+    width: 300px;
+    height: fit-content;
     height: 50px;
     word-wrap: normal;
 }

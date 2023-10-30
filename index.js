@@ -23,8 +23,8 @@ const pangramCheck = (e) => {
             }
         }
     }
-    console.log(pangramChars);
-    console.log(alphabet);
+    // console.log(pangramChars);
+    // console.log(alphabet);
 }
 
 form.addEventListener("submit", pangramCheck);
