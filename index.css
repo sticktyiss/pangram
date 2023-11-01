@@ -14,6 +14,7 @@ h1 {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10vh;
 }
 #info {
     width: fit-content;
@@ -23,6 +24,7 @@ h1 {
     background-color: #2a9d8f;
     border: 8px solid #e9c46a;
     border-radius: 20px;
+    font-family:'Courier New', Courier, monospace;
 }
 dt {
     color: #e9c46a;
@@ -32,32 +34,89 @@ dt {
     border: 8px solid #e9c46a;
     border-radius: 20px;
     font-size: 30px;
-    font-family: 'Indie Flower', cursive;
     position: relative;
     right: 40px;
-
+    bottom: 40px;
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26); */
+}
+dt span {
+    font-family: 'Indie Flower', cursive;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
+}
+dd {
+    color: #264653;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    right: 15px;
+}
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    margin: 50px;
 }
 #checker {
     display: flex;
+    margin-bottom: 20vh;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label {
+    align-self: flex-start;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    background-color: #e76f51;
+    color: #e9c46a;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 10px 10px 0px 0px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
 }
 #pangram {
     width: 300px;
-    height: fit-content;
-    height: 50px;
+    height: 300px;
     word-wrap: normal;
+    background-color: #2a9d8f;
+    color: #264653;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px 10px 0px 0px;
+    padding: 15px;
+}
+#submit {
+    width: 330px;
+    height: 50px;
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    color: #264653;
+    background-color: #2a9d8f;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+    /* border-top: 8px solid #2a9d8f; */
+}
+#submit:hover {
+    background-color: #e76f51;
+    /* color: #e9c46a; */
 }
 ul {
+    margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
-    width: 300px;
-    /* justify-content: space-around; */
+    height: 330px;
+    width: 330px;
     border: 2px solid black;
     border-radius: 10px;
 }
 li {
     list-style-type: none;
-    margin: 20px;
+    margin: 20px 22px;
     text-indent: -30px;
     font-size: 30px;
     font-family: 'Indie Flower', cursive;
