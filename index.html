@@ -22,11 +22,13 @@
         <p>Does your sentence contain every letter?</p>
 <section id="checker">
     <form>
-        <label for="pangram">Your sentence:</label>
-        <textarea id="pangram" name="pangram"></textarea>
+        <h3 for="pangram">Your sentence:</h3>
+        <textarea id="pangram" name="pangram" placeholder="Type your sentence here..."></textarea>
         <input type="submit" id="submit" value="Check">
     </form>
 
+    <div id="remaining">
+    <h3>Remaining Letters:</h3>    
     <ul>
         <li>A</li>
         <li>B</li>
@@ -55,6 +57,7 @@
         <li>Y</li>
         <li>Z</li>
     </ul>
+    </div>
 </section>
 
 <script src="./index.js"></script>

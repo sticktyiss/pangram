@@ -37,11 +37,11 @@ dt {
     position: relative;
     right: 40px;
     bottom: 40px;
-    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26); */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
 }
 dt span {
     font-family: 'Indie Flower', cursive;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
+    font-weight: bold;
 }
 dd {
     color: #264653;
@@ -58,22 +58,26 @@ p {
 #checker {
     display: flex;
     margin-bottom: 20vh;
+    /* height: 400px; */
 }
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
 }
-form label {
+form h3 {
     align-self: flex-start;
     font-family: 'Indie Flower', cursive;
     font-size: 30px;
     background-color: #e76f51;
     color: #e9c46a;
     width: fit-content;
+    margin: 0px;
+    margin-bottom: 20px;
     padding: 5px 15px;
-    border-radius: 10px 10px 0px 0px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
 }
 #pangram {
     width: 300px;
@@ -85,8 +89,11 @@ form label {
     font-size: 18px;
     font-weight: bold;
     border: none;
-    border-radius: 0px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     padding: 15px;
+}
+#pangram::placeholder {
+    color: #264653;
 }
 #submit {
     width: 330px;
@@ -99,11 +106,29 @@ form label {
     background-color: #2a9d8f;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
     cursor: pointer;
-    /* border-top: 8px solid #2a9d8f; */
 }
 #submit:hover {
     background-color: #e76f51;
-    /* color: #e9c46a; */
+}
+#remaining {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+#remaining h3 {
+    margin: 0px;
+    align-self: flex-end;
+    position: relative;
+    right: 50px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    background-color: #e76f51;
+    color: #e9c46a;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
 }
 ul {
     margin-left: 20px;
@@ -111,8 +136,8 @@ ul {
     flex-wrap: wrap;
     height: 330px;
     width: 330px;
-    border: 2px solid black;
-    border-radius: 10px;
+    /* border: 2px solid black;
+    border-radius: 10px; */
 }
 li {
     list-style-type: none;
